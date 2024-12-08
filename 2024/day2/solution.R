@@ -46,3 +46,4 @@ count_safe_reports_problem_dampener <- function(input_file) {
   df |> apply(1, is_safe_problem_dampener) |> sum()
 }
 
+count_safe_reports_problem_dampener("input.txt")
